@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+        <nav>
+            <a href="cart.html">Cart</a>
+            <a href="order-history.html">Order History</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Your Favorite Products in One Place</h2>
+            <p>Discover amazing deals on top products</p>
+        </section>
+
+        <section class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <h2>Wireless Headphones</h2>
+                <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68" alt="Headphones">
+                <p>$50.00</p>
+                <button onclick="addToCart(1, 'Wireless Headphones', 50)">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <h2>Smart Watch</h2>
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Smart Watch">
+                <p>$120.00</p>
+                <button onclick="addToCart(2, 'Smart Watch', 120)">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <h2>Laptop</h2>
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Laptop">
+                <p>$800.00</p>
+                <button onclick="addToCart(3, 'Laptop', 800)">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <h2>Gaming Console</h2>
+                <img src="https://images.unsplash.com/photo-1607864083537-a4f36e319a94" alt="Gaming Console">
+                <p>$350.00</p>
+                <button onclick="addToCart(4, 'Gaming Console', 350)">Add to Cart</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product">
+                <h2>4K TV</h2>
+                <img src="https://images.unsplash.com/photo-1581089781785-6c11b7b56303" alt="4K TV">
+                <p>$900.00</p>
+                <button onclick="addToCart(5, '4K TV', 900)">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product">
+                <h2>Bluetooth Speaker</h2>
+                <img src="https://images.unsplash.com/photo-1604335399103-f9a3362a9b9a" alt="Bluetooth Speaker">
+                <p>$60.00</p>
+                <button onclick="addToCart(6, 'Bluetooth Speaker', 60)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
